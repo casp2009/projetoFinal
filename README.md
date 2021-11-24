@@ -15,10 +15,10 @@ A versão do MYSQl utilizada é a 8.0 para Windows 64x.
   
 # Consultar veículo por cidade, modelo e faixa de preço
 
-  <endereço do servidor>:<porta>/veiculo/buscaCidadeModeloFaixapreco/{Codigo da cidade}/{Modelo do Carro}/{Preço inicial}:{Preço Final}
-  Codigo da cidade : Integer
-  Modelo do carro: String
-  Preço Inicial/Final: Double
+    <endereço do servidor>:<porta>/veiculo/buscaCidadeModeloFaixapreco/{Codigo da cidade}/{Modelo do Carro}/{Preço inicial}:{Preço Final}
+    Codigo da cidade : Integer
+    Modelo do carro: String
+    Preço Inicial/Final: Double
   
 # Consultar veículo por cidade, faixa de preço, ar condicional e tipo de câmbio
 
