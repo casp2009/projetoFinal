@@ -28,7 +28,7 @@ A versão do MYSQl utilizada é a 8.0 para Windows 64x.
     Se tem arcondicionado: String (sim/não)
     Tipo de cambio: String (manual/automatico)
 
-# consultar veículo por cidade, faixa de preço, ar condicional, tipo de câmbio e combustível
+# Consultar veículo por cidade, faixa de preço, ar condicional, tipo de câmbio e combustível
       
       <endereço do servidor>:<porta>/veiculo/buscaCidadeFaixaPrecoArCambioCombustivel/{Codigo da cidade}/{Preço inicial}:{Preço Final}/{Se tem arcondicionado}/{Tipo de cambio}/{tipo de combustivel}
     Codigo da cidade : Integer
@@ -37,7 +37,7 @@ A versão do MYSQl utilizada é a 8.0 para Windows 64x.
     Tipo de cambio: String (manual/automatico)
     tipo de combustivel: String (fasolina/flex)
 
-# cadastrar reserva de veículo
+# Cadastrar reserva de veículo
         
         <endereço do servidor>:<porta>/reservar/incluir
           
@@ -52,10 +52,10 @@ A versão do MYSQl utilizada é a 8.0 para Windows 64x.
         }
         
 
-# alterar reserva de veículo
+# Alterar reserva de veículo
           
           basta utilizar o metodo buscar ( <endereço do servidor>:<porta>/reservar/buscar/{id da reserva} ) fazer as alterações dos dados e utilizar o <endereço do servidor>:<porta>/reservar/incluir para fazer a alteração.
 
-# excluir reserva de veículo
+# Excluir reserva de veículo
           
           informar a ID da reserva na seguinte URL: <endereço do servidor>:<porta>/reservar/deletar/{id da reserva}
